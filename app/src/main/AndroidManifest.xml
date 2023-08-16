@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bitcoin.bitcointechmedia_ide.app">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/crypto_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/crypto_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Crypto"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:networkSecurityConfig"
+        tools:targetApi="31">
+        <activity
+            android:name=".UnderstandGuide"
+            android:exported="false" />
+        <activity
+            android:name=".CryptoLivePriceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlternativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".allPowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisPowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhatCryptoMiningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MineCryptoCurrencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TypesOfCryptocurrencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisadvantagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvantagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ValueationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnonimityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PublicPrivateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlockchainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhoInventedCrytoACtivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhatAreCrytocurrencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FactsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Benefits"
+            android:exported="false" />
+        <activity
+            android:name=".OwningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoringTransactionCrypto"
+            android:exported="false" />
+        <activity
+            android:name=".GetCryptoCurrency"
+            android:exported="false" />
+        <activity
+            android:name=".CryptoCurrencyWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryOfCryptocurrencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CryptoFundamentalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CryptoGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseLanguage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

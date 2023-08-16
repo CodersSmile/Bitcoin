@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bitcoin.iml" filepath="$PROJECT_DIR$/.idea/modules/Bitcoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.iml" filepath="$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AdsSdk/Bitcoin.AdsSdk.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bitcoin.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
